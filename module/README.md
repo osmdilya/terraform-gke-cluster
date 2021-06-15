@@ -7,8 +7,8 @@ Copy and paste below code and run terraform init , terraform apply.
 
 module "app" {
     source = "../"
-     // replace with your own project ID
-   	project = "xwibraqguembkefy"
+    // replace with your own project ID
+    project = "xwibraqguembkefy"
 	region = "us-central1"
 	zone = "us-central1-c"
 	cluster_name = "my-gke-cluster"

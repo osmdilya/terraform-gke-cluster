@@ -1,14 +1,7 @@
-# This Module Creates Google Kubernetes Cluster
-
-Copy and paste below code and run terraform init , terraform apply.
-
-
-```
-
 module "app" {
     source = "../"
-     // replace with your own project ID
-   	project = "xwibraqguembkefy"
+      //replace with your own project ID
+    	project = "sewpvcbwsybddcro"
 	region = "us-central1"
 	zone = "us-central1-c"
 	cluster_name = "my-gke-cluster"
@@ -17,6 +10,3 @@ module "app" {
 	node_pool_name = "my-node-pool"
 	preemptible = true
 }
-
-
-```
